@@ -26,7 +26,7 @@ const Banner = () => {
 
         {/* Right: Banner Image (you can replace with your own) */}
         <div className="mt-10 lg:mt-0 lg:ml-12">
-          {/* Replace with your own image */}
+          
           <Image
             src={banner}
             alt="Workout Illustration"
