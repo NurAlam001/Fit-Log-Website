@@ -61,9 +61,7 @@ const ExerciseCard = ({ plan }) => {
                     </div>
                 </div>
 
-                {/* Optional: If you want to keep the View Details button, you can add it here. 
-                    However, the reference image doesn't show one. Instead, you could wrap 
-                    the entire card in a <Link> to make it clickable. */}
+            
             </div>
         </div>
     );
