@@ -24,7 +24,7 @@ const Banner = () => {
           </button>
         </div>
 
-        {/* Right: Banner Image (you can replace with your own) */}
+        
         <div className="mt-10 lg:mt-0 lg:ml-12">
           
           <Image
