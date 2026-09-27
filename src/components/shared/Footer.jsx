@@ -12,7 +12,7 @@ const Footer = () => {
           <span className="font-bold text-lg tracking-wide">FITLOG</span>
         </div>
 
-        {/* Right: Copyright Text */}
+        
         <p className="text-sm text-gray-400 text-center md:text-right">
           © 2026 FitLog — Workout Library.{" "}
           <span className="text-gray-300">Train hard, log honest.</span>
