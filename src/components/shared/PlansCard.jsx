@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const ExerciseCard = ({ plan }) => {
     return (
-        // Outer container with dark theme, rounded corners, and shadow
+        
         <div className="bg-zinc-950 text-white rounded-3xl overflow-hidden shadow-lg w-full max-w-[350px]">
             {/* Image Section */}
             <figure className="relative w-full h-52">
