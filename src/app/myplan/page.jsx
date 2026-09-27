@@ -11,7 +11,7 @@ const Myplan = () => {
 
     // 2. Helper function to sort the array based on the selected option
     const sortPlans = (plansArray) => {
-        // Create a copy of the array so we don't mutate the original Context state
+        
         const sortedArray = [...plansArray];
 
         if (sortBy === 'duration') {
@@ -38,7 +38,7 @@ const Myplan = () => {
             {/* Sort By Dropdown Section */}
             <div className="flex justify-end items-center my-6 gap-3">
                 <span className="text-sm font-semibold text-gray-600">Sort By:</span>
-                {/* DaisyUI select component automatically provides the chevron icon */}
+                
                 <select 
                     className="select select-bordered select-sm w-full max-w-[150px] bg-base-100 font-medium"
                     value={sortBy}
